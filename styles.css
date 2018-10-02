@@ -1,0 +1,19 @@
+.container-fluid {
+    background-color: yellow;
+}
+.header { 
+    background-color: blue;
+}
+
+@media screen and (max-width: 600px) {
+    .promo {
+        background-color: blue;
+        height: 150px;
+    }
+}
+@media screen and (min-width: 601px) {
+    .promo {
+        height: 150px;
+        background-color: red;
+    }
+}
