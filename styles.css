@@ -4,6 +4,10 @@
 .header { 
     background-color: blue;
 }
+.nav {
+    background-color: green;
+
+}
 
 @media screen and (max-width: 600px) {
     .promo {
